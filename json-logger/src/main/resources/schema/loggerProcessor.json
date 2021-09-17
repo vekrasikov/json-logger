@@ -12,6 +12,15 @@
         }
       }
     },
+    "userRequestId": {
+      "type": "string",
+      "sdk": {
+        "default": "#[vars.transactionId]",
+        "placement": {
+          "tab": "Advanced"
+        }
+      }
+    },
     "xForwardedFor": {
       "type": "string",
       "sdk": {
